@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Upload Files
+      Private Images Login
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,12 @@
 <ion-content>
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Upload Files</ion-title>
+      <ion-title size="large">Private Images Login</ion-title>
     </ion-toolbar>
   </ion-header>
   <ion-row class="copy-row">
     <ion-col>
-      <p>In order to upload protected files to Firebase Storage we first need to authenticate. This way, access to the files is enabled only for their owner. <a href="https://firebase.google.com/docs/rules/rules-language?authuser=0" target="_blank">Understand Firebase security rules</a>.</p>
+
     </ion-col>
   </ion-row>
   <form [formGroup]="loginForm" (ngSubmit)="doLogin()" class="login-form">
