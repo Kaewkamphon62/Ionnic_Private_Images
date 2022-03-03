@@ -1,0 +1,36 @@
+ion-content ion-toolbar {
+  --background: translucent;
+}
+
+ion-grid {
+  --ion-grid-padding: 10px;
+}
+
+.copy-row {
+  padding: 10px;
+}
+
+.section-title {
+  font-weight: bold;
+}
+
+.photo-item {
+  app-image-shell {
+    --image-shell-border-radius: 6px;
+    --image-shell-loading-background: #e1ecff;
+  }
+}
+
+.buttons-row {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.empty-state-copy {
+  text-align: center;
+  background: #e1ecff;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #1e1e1e;
+}

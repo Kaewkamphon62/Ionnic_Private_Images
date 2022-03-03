@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ionic-contacts-app": {
+      "hosting": {
+        "app": [
+          "storage-tutorial"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "storage-tutorial": "storage-tutorial"
+  }
+}
