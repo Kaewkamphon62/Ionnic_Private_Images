@@ -19,7 +19,7 @@ const redirectUnauthorizedToLogin = () => redirectUnauthorizedTo(['/tabs/tab2'])
     CommonModule,
     IonicModule,
     ShellModule,
-//    ImageModelPageModule,
+    //    ImageModelPageModule,
     RouterModule.forChild([
       {
         path: '',
